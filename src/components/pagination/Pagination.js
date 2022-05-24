@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ReactPaginate from 'react-paginate';
-import styles from './Pagination.module.scss';
 
 const Pagination = ({ info, pageNumber, setPageNumber }) => {
 
